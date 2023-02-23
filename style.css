@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+.hr {
+  width: 80%;
+  margin-left: 0;
+  margin-top: 0.5rem;
+}
+
+.booklst {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  width: 30%;
+  height: auto;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+input {
+  font-weight: bold;
+  padding-left: 3px;
+}
+
+.booklst input {
+  width: 15rem;
+  height: 1.5rem;
+  outline: none;
+}
+
+.booklst .btn {
+  width: 38%;
+  height: 1.5rem;
+}
+
+.booklst .btnr {
+  width: 5rem;
+  height: 2rem;
+}
+
+.booklst li {
+  list-style: none;
+}
+
+.addbtn {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.3rem;
+  width: 3rem;
+  height: auto;
+  margin-left: 0;
+  margin-top: 1rem;
+  padding: 0.4rem;
+  cursor: pointer;
+}
